@@ -510,6 +510,7 @@ input[type="range"].amplitude-volume-slider {
 div.volume-controls {
   display: flex;
   justify-content: flex-end;
+
 }
 @-moz-document url-prefix() {
   input[type="range"].amplitude-volume-slider {
