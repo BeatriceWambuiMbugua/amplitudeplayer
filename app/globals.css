@@ -457,8 +457,8 @@ div#control-container:after {
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   div#amplitude-player div#repeat-container div#repeat {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;
     float: none;
   }
   div#amplitude-player div#repeat-container div#shuffle {
@@ -491,8 +491,7 @@ div#control-container:after {
 /* Large and up */
 @media screen and (min-width: 64em) {
   div#amplitude-player div#repeat-container div#repeat {
-    margin-left: 10px;
-    margin-right: 20px;
+   
     float: left;
   }
   div#amplitude-player div#volume-container div#shuffle-right {
